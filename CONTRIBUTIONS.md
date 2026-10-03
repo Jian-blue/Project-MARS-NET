@@ -21,21 +21,15 @@ The submitted declaration states that the lab project was completed by the two a
 - Connectivity, routing, service, and security validation
 - Lab report and project presentation
 
-### Important note before making the repository public
-
-If you both actually had a specific individual split (for example, one person owned routing/NAT/ACL while the other owned VLAN/services/testing), replace the joint wording above with that **actual** division before publishing. Do not use a suggested split merely because it sounds professional.
-
-## Optional individual-split template
-
-Use this only to record your real work:
+## Optional individual-split
 
 | Module | Primary owner | Supporting owner | Evidence |
 |---|---|---|---|
-| Topology / IP plan | TBD | TBD | `docs/evidence/topology.png` |
-| VLAN / trunk / Router-on-a-Stick | TBD | TBD | `docs/evidence/vlan-switch.png` |
-| EIGRP / OSPF / redistribution | TBD | TBD | routing screenshots + `.pkt` |
-| NAT/PAT | TBD | TBD | `docs/evidence/nat-translations.png` |
-| ACL / security policy | TBD | TBD | `docs/evidence/acl-*.png` |
-| DHCP / DNS / SMTP | TBD | TBD | service screenshots |
-| Testing / troubleshooting | TBD | TBD | `docs/testing.md` |
-| Report / presentation | TBD | TBD | `academic/` |
+| Topology / IP plan | Both | Both | `docs/evidence/topology.png` |
+| VLAN / trunk / Router-on-a-Stick | Shanita | Jian | `docs/evidence/vlan-switch.png` |
+| EIGRP / OSPF / redistribution | Shanita | Jian | routing screenshots + `.pkt` |
+| NAT/PAT | Jian | Shanita | `docs/evidence/nat-translations.png` |
+| ACL / security policy | Shanita | Jian | `docs/evidence/acl-*.png` |
+| DHCP / DNS / SMTP | Jian | Shanita | service screenshots |
+| Testing / troubleshooting | Jian | Shanita | `docs/testing.md` |
+| Report / presentation | Jian | Shanita | `academic/` |
