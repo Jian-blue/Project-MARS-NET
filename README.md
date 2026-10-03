@@ -30,32 +30,20 @@ The submitted report states that Cisco Packet Tracer was used to design, configu
 
 ```mermaid
 flowchart LR
-    E[Earth Network
-20.0.0.0/24] --> EG[Earth Gateway
-200.0.10.2/30]
-    EG <-- OSPF --> MG[Mars Gateway
-200.0.10.1/30]
-    MG <-- EIGRP/Redistribution --> R[Research
-10.0.10.0/24]
-    R --> M[Medical
-10.0.20.0/24]
-    M --> H[Habitat Inter-VLAN Router]
-    H --> S[Security
-10.0.200.0/24]
-    H --> V10[VLAN 10
-Residential]
-    H --> V20[VLAN 20
-Greenhouse]
-    H --> V30[VLAN 30
-Robot Maintenance]
-    H --> V40[VLAN 40
-Tourist]
-    S --> SV[Server Network
-10.0.100.0/24
-DHCP | DNS | SMTP]
+    E["Earth Network<br/>20.0.0.0/24"] --> EG["Earth Gateway<br/>200.0.10.2/30"]
+    EG <-->|OSPF| MG["Mars Gateway<br/>200.0.10.1/30"]
+    MG <-->|EIGRP / Redistribution| R["Research<br/>10.0.10.0/24"]
+    R --> M["Medical<br/>10.0.20.0/24"]
+    M --> H["Habitat Inter-VLAN Router"]
+    H --> S["Security<br/>10.0.200.0/24"]
+    H --> V10["VLAN 10<br/>Residential"]
+    H --> V20["VLAN 20<br/>Greenhouse"]
+    H --> V30["VLAN 30<br/>Robot Maintenance"]
+    H --> V40["VLAN 40<br/>Tourist"]
+    S --> SV["Server Network<br/>10.0.100.0/24<br/>DHCP, DNS, SMTP"]
 ```
 
-The report defines the Habitat VLANs as Residential (10), Greenhouse (20), Robot Maintenance (30), and Tourist (40), with centralized DHCP, DNS, and SMTP services on the server network.
+The Habitat VLANs as Residential (10), Greenhouse (20), Robot Maintenance (30), and Tourist (40), with centralized DHCP, DNS, and SMTP services on the server network.
 
 ### Topology
 
@@ -163,7 +151,7 @@ MARS-NET-github/
 │   ├── MARS-NET_Presentation.pptx
 │   └── MARS-NET_Presentation.pdf
 ├── network/
-│   ├── MARS-NET.pkt              # add your final Packet Tracer file
+│   ├── MARS-NET.pkt              # final pkt file, open in Cisco
 │   └── README.md
 ├── configs/
 │   ├── routing.md
@@ -211,8 +199,12 @@ The submitted report notes that the network is simulated in Packet Tracer rather
 - **Shanita Shafi Mugdha** — Student ID 241-15-511
 - **Shafayat Yeamin Jian** — Student ID 241-15-679
 
-The submitted report identifies both students as project authors.
 
-## License / academic use
+## License  
 
-No software license was specified in the submitted academic materials. Treat this repository as an academic portfolio project unless the authors add an explicit license.
+You are free to use, study, modify, and adapt this project for academic and educational purposes, provided that proper credit is given to the original team and this repository is referenced where appropriate.  
+
+Commercial use, redistribution for commercial purposes, or use of this project for profit is not permitted without prior permission from the original authors.  
+
+Authors: Shanita Shafi Mugdha & Shafayat Yeamin Jian  
+  
